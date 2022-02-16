@@ -17,7 +17,7 @@ int main() {
   scanf("%d", &n);
   nums = (int *)malloc(sizeof(int) * n);
   for (int i = 0; i < n; i++) {
-    *(nums + i) = rand() % 50 - 25;
+    *(nums + i) = rand() % 50 - 15;
   }
   puts("Array:");
   print_array(nums, n);
